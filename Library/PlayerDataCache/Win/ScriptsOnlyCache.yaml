@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraScript
+    - EnemyScript
     - PlayerScript
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
@@ -9,7 +10,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
@@ -50,10 +50,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 632}
+      Script: {instanceID: 634}
     - Class: 114
       Script: {instanceID: 11768}
     - Class: 114
@@ -65,11 +69,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14088}
     - Class: 114
-      Script: {instanceID: 14540}
+      Script: {instanceID: 14194}
     - Class: 114
-      Script: {instanceID: 15186}
+      Script: {instanceID: 14542}
     - Class: 114
-      Script: {instanceID: 19332}
+      Script: {instanceID: 14640}
+    - Class: 114
+      Script: {instanceID: 15190}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -333,7 +339,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: 34c3cd17eb18eeeba4aea6ff64c18cea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -447,6 +453,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScript
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -475,6 +487,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyScript
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -583,13 +601,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 66bca5cc6a18c5298ec75235e56a84d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraScript
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/New Unity Project/Tutorial 2/New Unity Project.exe
+  playerPath: D:/Challenge 2 Build/New Unity Project.exe
